@@ -1,0 +1,31 @@
+:root {
+    --dark-mode: blue;  --dark-mode-c: white;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--dark-mode);
+}
+h1{
+    color: var(--dark-mode-c);
+}
+.frag{
+    background-color: transparent;
+    display: block;
+    height: 30px;
+}
+.textarea{
+    overflow:hidden;
+    resize: none;
+    float:left;
+    width: 85%;
+    height: calc(100% + 3px);
+}
+.button{
+    float: left;
+    width: 10%;
+    height: 100%;
+}
