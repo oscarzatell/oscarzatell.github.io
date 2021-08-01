@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copi v0.0.2</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <h1>Copiar al Portapapeles</h1>
+
+    <h3>Texto sin edición</h3>
+    <div class="container">
+        <div class="frag">
+            <textarea readonly="readonly" class="textarea" id="codigo">apt update && apt upgrade -y</textarea>
+            <button class="btn" id="btn">
+                <svg 
+                    height="24px" 
+                    viewBox="0 0 24 24" 
+                    width="24px" 
+                    fill="#000000">
+                    <path 
+                        d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+            </button>
+        </div>
+    <h3>Texto con posibilidad de edición, scroll a los lados 
+        <br>
+        (Aun no copia)
+    </h3>
+        <div class="frag">
+            <textarea class="textarea" id="codigo2"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt labore illum quis voluptas adipisci corrupti ut? Exercitationem vero eum autem. Vero dignissimos quae mollitia ipsa minus quam voluptates totam dolores!</textarea>
+            <button class="btn" id="btn2">
+                <svg 
+                    height="24px" 
+                    viewBox="0 0 24 24" 
+                    width="24px" 
+                    fill="#000000">
+                    <path 
+                        d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

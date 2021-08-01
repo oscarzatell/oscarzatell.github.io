@@ -1,0 +1,36 @@
+:root {
+    --a: #0e1117;     --b: #161b22;     --c: #e4e4e4; 
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--b);
+}
+h1, h3{
+    color: var(--c);
+}
+.frag{
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    margin-top: 30px;
+}
+.textarea{
+    background-color: var(--a);
+    color: var(--c);
+    overflow:hidden;
+    resize: none;
+    float:left;
+    width: calc(100% - 40px);
+    height: calc(100%);
+    overflow-x: scroll;
+    white-space: pre;
+}
+.btn{
+    background: var(--c);
+    border: 1px;
+    height: 100%;
+}
